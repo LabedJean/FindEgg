@@ -6,6 +6,7 @@ export default function Router() {
   return (
     <Switch>
       <Route path='/' component={HomePage} />
+      <Route path='/easter-eggs' component={HomePage} />
     </Switch>
   );
 }
